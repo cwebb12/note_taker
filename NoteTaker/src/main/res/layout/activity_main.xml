@@ -29,6 +29,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Recording"
+        android:background="@drawable/main_button"
+        style="@style/MainButton"
         android:id="@+id/new_rec"
         android:layout_marginTop="44dp"
         android:layout_below="@+id/title_name"
@@ -40,9 +42,10 @@
         android:layout_height="wrap_content"
         android:text="Browse Recordings"
         android:id="@+id/browse_rec"
+        android:background="@drawable/main_button"
+        style="@style/MainButton"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2"
+        android:layout_centerHorizontal="true"
         android:onClick="browseRecordings"/>
 
     <!-- <Button
@@ -70,15 +73,15 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Process Audio"
-        android:id="@+id/process_audio"
-        android:layout_below="@+id/browse_rec"
-        android:layout_alignRight="@+id/new_rec"
-        android:layout_alignEnd="@+id/new_rec"
-        android:layout_marginTop="80dp"
-        android:onClick="processRecording" />
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Process Audio"-->
+        <!--android:id="@+id/process_audio"-->
+        <!--android:layout_below="@+id/browse_rec"-->
+        <!--android:layout_alignRight="@+id/new_rec"-->
+        <!--android:layout_alignEnd="@+id/new_rec"-->
+        <!--android:layout_marginTop="80dp"-->
+        <!--android:onClick="processRecording" />-->
 
 </RelativeLayout>

@@ -16,6 +16,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start Recording"
+        android:background="@drawable/main_button"
+        style="@style/MainButton"
         android:id="@+id/test_record"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05"
